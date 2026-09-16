@@ -18,6 +18,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 ---
 
 # Update Mona's GitHub Info website
@@ -28,9 +29,10 @@ Use web-fetch to read these public sources:
 
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
-Read external public instructions and guidance with web-fetch, including https://github.com/github/gh-aw. Read repository instructions or reference files with GitHub repository API tools instead of terminal, CLI, or sandboxed commands.
+Read external public instructions and guidance with web-fetch, including https://github.com/github/gh-aw and https://awesome-copilot.github.com/workflows/. Read repository instructions or reference files with GitHub repository API tools instead of terminal, CLI, or sandboxed commands.
 
-Update `site/content/github-info.md` with concise, practical updates for readers. Include source context whenever content comes from the GitHub Blog or GitHub Changelog.
+Update `site/content/github-info.md` with concise, practical updates for readers. Include source context whenever content comes from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows.
 
 Open a pull request for Mona to review. Use a pull request title that mentions Mona or GitHub Info. Do not write directly to `main`; rely on `safe-outputs` with `create-pull-request`.
